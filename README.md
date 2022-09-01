@@ -34,6 +34,6 @@ To run the python script, run the commands below:
   - model_data: The directory which contains the input data that will be load to make prediction by the running or deployed model
 
 
-## Template
+## Pipeline Build Status
 
 [![FestineOnGCP](https://circleci.com/gh/FestineOnGCP/operationalize-ml-model-project.svg?style=svg)](https://app.circleci.com/pipelines/gh/FestineOnGCP/operationalize-ml-model-project/4/workflows/cd8296c1-76d4-445a-97f2-4fe619bfc0a3/jobs/4)

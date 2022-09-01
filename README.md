@@ -1,13 +1,13 @@
 # Operationalize-ml-model-project
 
-# Project Summary
+## Project Summary
 
 This project is a deployment of a Machine Learning model which has been trained to predict the cost of a house 
 based on the input data that is feed into the model. 
 
-# Instrunctions
+## Instrunctions
 
-## Instructions on how to run python script
+### Instructions on how to run python script
 
 To run the python script, run the commands below:
   1. python3 -m venv ~/.devops
@@ -18,7 +18,7 @@ To run the python script, run the commands below:
   5. make lint
   6. python3 app.py
 
-# File Explanation
+## File Explanation
   - Dockerfile: The instruction for creating the flask application docker images
   - Makefile: The setup script for installing python dependencies, linting, and testing
   - app.py: The flask application main source code file
@@ -34,6 +34,6 @@ To run the python script, run the commands below:
   - model_data: The directory which contains the input data that will be load to make prediction by the running or deployed model
 
 
-# Template
+## Template
 
 [![FestineOnGCP](https://circleci.com/gh/FestineOnGCP/operationalize-ml-model-project.svg?style=svg)](https://app.circleci.com/pipelines/gh/FestineOnGCP/operationalize-ml-model-project/4/workflows/cd8296c1-76d4-445a-97f2-4fe619bfc0a3/jobs/4)
